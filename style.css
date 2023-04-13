@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 .topbar {
     display: flex; 
     width: 100%; 
@@ -116,6 +115,39 @@ h5 {
     background-position: 2% 50%; 
 }
 
+section {
+    background-color: #3CA59B;
+}
+
+.title-container {
+    padding-left: 250px;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-container {
+    display: flex;
+    align-items: flex-end;
+    background-color: #3CA59B;
+    margin-top: -70px;
+}
+
+.test-container {
+    background-color: hsl(174,46.7%,61.74%);
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.test-container button {
+    background-color: red;
+    width: 100%;
+    padding: 10px 50px;
+    background-color: hsl(174,46.7%,61.74%);
+}
+
 
 .backToTop {
     position: absolute;
@@ -208,7 +240,3 @@ footer {
     padding: 6px;
     margin-right: 10px;
 }
-
-
-
-
