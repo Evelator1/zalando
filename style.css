@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.backToTop {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    font-family: HelveticaNow, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    background-color: #1A1A1A;
+    border: none;
+    padding:5px 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+footer {
+    font-family: HelveticaNow, Helvetica, sans-serif;
+    color: white;
+    background-color: #1A1A1A;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;  
+}
+
+.termsAndConditionContainer {
+    width: 500px;
+    height: 150px;
+}
+
+.termsAndConditionContainer > ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.termsAndConditionContainer > ul > li > a {
+    margin: 0px 10px 10px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+}   
+
+.termsAndConditionContainer p {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.downloadAppContainer {
+    margin-left: 80px;
+}
+
+.downloadAppContainer > h3 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.socialMediaInfo {
+    margin-left: 40px;
+}
+
+.socialMediaInfo > h3 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.socialIconContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.socialIconContainer img {
+    background-color: white;
+    padding: 6px;
+    margin-right: 10px;
+}
+
+
+
+
