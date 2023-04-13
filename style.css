@@ -177,12 +177,28 @@ h5 {
 
 .section20 {
     background-color: #3CA59B;
+    color: #1a1a1a;
 }
 
 .title-container {
-    padding-left: 250px;
-    padding-top: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 300px;
+    padding-top: 30px;
+}
+
+.title-container h1 {
+    font-family: HelveticaNow,Helvetica,sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    
+}
+
+.title-container h2 {
+    font-family: Tiempos,Times New Roman,serif;
+    font-weight: 300;
+}
+
+.title-container p {
+    font-family: Tiempos,Times New Roman,serif;
 }
 
 .top-container {
@@ -197,15 +213,20 @@ h5 {
     padding-top: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
-    padding-left: 250px;
+    padding-left: 300px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.test-container h1 {
+    padding: 10px 10px 10px 0;
+
+}
+
 .test-container button {
-    background-color: red;
     width: 100%;
     padding: 10px 50px;
     background-color: hsl(174,46.7%,61.74%);
+    font-family: HelveticaNow,Helvetica,sans-serif;
 }
 
 .backToTop {
