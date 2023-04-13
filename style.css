@@ -115,7 +115,67 @@ h5 {
     background-position: 2% 50%; 
 }
 
-section {
+.section10 {
+    background-color: #D2451E;
+    color: white;
+    height: 315px;
+    font-family: HelveticaNow, Helvetica, sans-serif;
+}
+
+.sectionContainer {
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+#title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+#subtitle {
+    font-family: Tiempos, "Times New Roman", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.explore {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50px;
+    z-index: 100;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.explore h3 {
+    margin-right: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 150px;
+}
+
+.explore > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.explore a  {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+
+.section20 {
     background-color: #3CA59B;
 }
 
@@ -147,7 +207,6 @@ section {
     padding: 10px 50px;
     background-color: hsl(174,46.7%,61.74%);
 }
-
 
 .backToTop {
     position: absolute;
@@ -188,10 +247,11 @@ footer {
     list-style: none;
     margin-bottom: 50px;
     width: 100%;
+    margin-left: -10px;
 }
 
-.termsAndConditionContainer > ul > li > a {
-    margin: 0px 10px 10px 10px;
+.termsAndConditionContainer > ul a {
+    margin: 10px;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -200,7 +260,6 @@ footer {
 }   
 
 .termsAndConditionContainer p {
-    margin-left: 10px;
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
