@@ -78,7 +78,7 @@
 }
 
 .icons {
-    padding: 0 125px 0 0;
+    padding: 0 70px 0 0;
 }
 
 .topnav {
@@ -118,16 +118,22 @@ h5 {
 .section10 {
     background-color: #D2451E;
     color: white;
-    height: 315px;
+    height: 360px;
     font-family: HelveticaNow, Helvetica, sans-serif;
 }
 
 .sectionContainer {
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 80px;
+    margin-left: 80px;
     padding-top: 15px;
     display: flex;
     justify-content: space-between ;
+    flex-wrap: wrap;
+}
+
+.sectionContainer img {
+    width: 400px;  
+    height: 40%; 
 }
 
 #title {
@@ -156,7 +162,7 @@ h5 {
     margin-right: 40px;
     font-size: 16px;
     font-weight: 400;
-    margin-left: 150px;
+    margin-left: 80px;
 }
 
 .explore > ul {
@@ -181,7 +187,7 @@ h5 {
 }
 
 .title-container {
-    padding-left: 300px;
+    padding-left: 80px;
     padding-top: 30px;
 }
 
@@ -208,13 +214,15 @@ h5 {
     margin-top: -70px;
 }
 
+
 .test-container {
     background-color: hsl(174,46.7%,61.74%);
     padding-top: 30px;
-    padding-right: 30px;
+    padding-right: 100px;
     padding-bottom: 30px;
-    padding-left: 300px;
+    padding-left: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%; 
 }
 
 .test-container h1 {
@@ -223,14 +231,14 @@ h5 {
 }
 
 .test-container button {
-    width: 100%;
+    width: 380px;
     padding: 10px 50px;
     background-color: hsl(174,46.7%,61.74%);
     font-family: HelveticaNow,Helvetica,sans-serif;
 }
 
 .backToTop {
-    position: absolute;
+    position: fixed;
     right: 25px;
     bottom: 25px;
     font-family: HelveticaNow, Helvetica, sans-serif;
@@ -248,16 +256,16 @@ footer {
     font-family: HelveticaNow, Helvetica, sans-serif;
     color: white;
     background-color: #1A1A1A;
-    padding-left: 150px;
+    padding-left: 80px;
     padding-right: 150px;
     display: flex;
     justify-content: flex-start;
-    padding-top: 20px;  
+    padding-top: 50px;  
 }
 
 .termsAndConditionContainer {
     width: 500px;
-    height: 150px;
+    height: 210px;
 }
 
 .termsAndConditionContainer > ul {
@@ -319,4 +327,67 @@ footer {
     background-color: white;
     padding: 6px;
     margin-right: 10px;
+}
+
+.smallscreen {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .topnav, .topbar, .buttons-top {
+        display: none; 
+    }
+    .smallscreen {
+        display: flex;
+        margin-left: 60px;
+        align-items: center;
+    } 
+
+    .explore {
+        display: none; 
+    }
+.sectionContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%; 
+    margin-left: 0;
+}
+
+.sectionContainer h2 {
+    margin-bottom: 20px;
+}
+.sectionContainer img {
+    height: 100%;
+    width: 100%; 
+}
+
+.top-container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.top-container img {
+    height: 100%;
+    width: 100%; 
+}
+
+.test-container {
+    background-color: #3CA59B;
+    padding-left: 0; 
+    margin-top: 70px; 
+    margin-left: 300px;
+    
+}
+
+.title-container {
+    display: none;
+}
+
+.termsAndConditionContainer {
+    height: 170px;
+}
+    }
+
+@media screen and (max-width: 480px) {
+    
 }
